@@ -1,0 +1,51 @@
+//Background colors
+$bg-blue: rgb(249, 243, 255);
+$bg-red: rgb(254, 247, 252);
+$bg-yellow:rgb(255, 255, 246);
+$bg-purple: rgb(246, 255, 255);
+
+$bg-gradient: linear-gradient(to right, #ff512f, #dd2476);
+$bg-gradient-indigo: linear-gradient(to right, #8e2de2, #4a00e0);
+$bg-gradient-peach: linear-gradient(to right, #fff7f3, #fff7f3);
+
+//Text colors
+$text-gray: #808291;
+$text-white: #f8f9fa;
+$text-light: #f6f6f6;
+$text-dark : #1A3260;
+$text-dark2 : #1A3760D4;
+$text-red : #ff4d6d;
+
+//Global text and background color classes
+.text-gray {
+  color: $text-gray;
+}
+.text-white {
+  color: $text-white;
+}
+.text-light {
+  color: $text-light;
+}
+.text-dark {
+  color: $text-dark;
+}
+.text-red {
+  color: $text-red;
+}
+
+.bg-blue {
+  background-color: $bg-blue;
+}
+.bg-red {
+  background-color: $bg-red;
+}
+.bg-yellow {
+  background-color: $bg-yellow;
+}
+.bg-purple {
+  background-color: $bg-purple;
+}
+
+.bg-gradient-indigo {
+  background-image: $bg-gradient-indigo;
+}
