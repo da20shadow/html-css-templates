@@ -1,0 +1,266 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+}
+
+.gird-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.gap-1 {
+  gap: 0.25rem; /* 4px */
+}
+
+.gap-2 {
+  gap: 0.5rem; /* 8px */
+}
+
+.gap-4 {
+  gap: 1rem; /* 16px */
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-min {
+  width: min-content;
+}
+
+.w-max {
+  width: max-content;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-2 {
+  margin: 0.5rem; /* 8px */
+}
+
+.m-4 {
+  margin: 1rem; /* 16px */
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-2 {
+  margin-left: 0.5rem; /* 8px */
+  margin-right: 0.5rem; /* 8px */
+}
+
+.mx-4 {
+  margin-left: 1rem; /* 16px */
+  margin-right: 1rem; /* 16px */
+}
+
+.my-2 {
+  margin-top: 0.5rem; /* 8px */
+  margin-bottom: 0.5rem; /* 8px */
+}
+
+.my-4 {
+  margin-top: 1rem; /* 16px */
+  margin-bottom: 1rem; /* 16px */
+}
+
+.border {
+  border: 1px solid;
+}
+
+.border-2 {
+  border: 8px solid;
+}
+
+.border-4 {
+  border: 16px solid;
+}
+
+.border-gray-50 {
+  border-color: rgb(249, 250, 251);
+}
+
+.border-gray-100 {
+  border-color: rgb(243, 244, 246);
+}
+
+.border-gray-200 {
+  border-color: rgb(229, 231, 235);
+}
+
+.border-gray-300 {
+  border-color: rgb(209, 213, 219);
+}
+
+.border-gray-400 {
+  border-color: rgb(156, 163, 175);
+}
+
+.border-gray-500 {
+  border-color: rgb(107, 114, 128);
+}
+
+.border-gray-600 {
+  border-color: rgb(75, 85, 99);
+}
+
+.border-gray-700 {
+  border-color: rgb(55, 65, 81);
+}
+
+.border-gray-800 {
+  border-color: rgb(31, 41, 55);
+}
+
+.border-gray-900 {
+  border-color: rgb(17, 24, 39);
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.text-lg {
+  font-size: 21px;
+}
+
+.text-md {
+  font-size: 17px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-gray {
+  color: #808291;
+}
+
+.text-white {
+  color: #f8f9fa;
+}
+
+.text-light {
+  color: #f6f6f6;
+}
+
+.text-dark {
+  color: #1A3260;
+}
+
+.text-red {
+  color: #ff4d6d;
+}
+
+.bg-blue {
+  background-color: rgb(249, 243, 255);
+}
+
+.bg-red {
+  background-color: rgb(254, 247, 252);
+}
+
+.bg-yellow {
+  background-color: rgb(255, 255, 246);
+}
+
+.bg-purple {
+  background-color: rgb(246, 255, 255);
+}
+
+.bg-gradient-indigo {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+/*# sourceMappingURL=style.css.map */
