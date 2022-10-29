@@ -1,0 +1,39 @@
+//Font size
+$text-xxl: 64px;
+$text-xl: 34px;
+$text-lg: 21px;
+$text-md: 17px;
+$text-sm: 14px;
+
+//Font weight
+$font-bold: 900;
+$font-medium: 600;
+$font-normal: 500;
+$font-light: 300;
+
+//Font families
+$main-font: "Lucida Sans", sans-serif;
+$second-font: Roboto,sans-serif;
+
+//Global Typography Classes
+.title {
+  font-size: $text-xxl;
+  font-weight: $font-medium;
+}
+
+.sub-title {
+  font-size: $text-xl;
+  font-weight: $font-medium;
+}
+
+.text-lg {
+  font-size: $text-lg;
+}
+
+.text-md {
+  font-size: $text-md;
+}
+
+.text-sm {
+  font-size: $text-sm;
+}
