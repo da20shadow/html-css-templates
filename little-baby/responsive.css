@@ -2,11 +2,23 @@
     display: none;
 }
 @media screen and (max-width: 600px) {
+
+    .entry-header {
+        background-position: center;
+        background-size: 250%;
+    }
     .site-navigation {
         display: none;
     }
     .hamburger-menu {
         display: block;
+    }
+    .entry-header-container .button-primary {
+        width:25%;
+    }
+
+    .site-logos{
+        padding: 10px 75px;
     }
     .site-logos-container {
         display: grid;
@@ -25,17 +37,20 @@
     }
     .site-information-text .entry-description {
         margin: 5px auto;
-        font-size: 16px;
+        font-size: 18px;
         width:100%;
     }
     .site-information-text .entry-subtitle{
-        font-size: 17px;
+        font-size: 27px;
     }
     .site-information-text .entry-title {
-        font-size: 25px;
+        font-size: 45px;
     }
     .site-information-image {
         display: none;
+    }
+    .site-information-text .button-primary {
+        width: 33%;
     }
 
     .site-form-container .entry-title {
@@ -55,12 +70,20 @@
     }
 
     .site-blog .entry-title {
-        font-size: 39px;
+        font-size: 47px;
+        width: 70%;
+        margin: 7px auto;
     }
     .site-posts {
         display: grid;
+        width: 70%;
+        margin: 20px auto;
     }
     .site-footer {
-        justify-content: center;
+        display: block;
+        text-align: center;
+    }
+    footer a {
+        display: block;
     }
 }
